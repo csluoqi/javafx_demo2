@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample2.Controller">
+   <children>
+      <Button fx:id="myButton" layoutX="66.0" layoutY="85.0" mnemonicParsing="false" onAction="#showDateTIme" text="show date time" />
+      <TextField fx:id="myTextField" layoutX="52.0" layoutY="163.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample3.Controller">
+   <children>
+      <Button fx:id="mybutton" alignment="TOP_CENTER" mnemonicParsing="false" onAction="#changetop" text="Change Top" />
+      <StackPane fx:id="stackPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="btn1" mnemonicParsing="false" text="Button" textFill="#d01717" visible="false" />
+            <CheckBox fx:id="ckbox1" mnemonicParsing="false" text="CheckBox" textFill="#44d70a" visible="false" />
+            <Label fx:id="lab1" text="Label" textFill="#211ed7" visible="false" />
+         </children>
+      </StackPane>
+   </children>
+</VBox>

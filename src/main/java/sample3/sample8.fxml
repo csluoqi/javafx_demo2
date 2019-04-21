@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TitledPane animated="false" text="C#">
+         <content>
+            <VBox prefHeight="208.0" prefWidth="201.0">
+               <children>
+                  <Label text="C# tutorial for beginner" />
+                  <Label text="C# IO Tutorial" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+         </content>
+      </TitledPane>
+      <TitledPane animated="false" text="java">
+         <content>
+            <VBox prefHeight="200.0" prefWidth="387.0">
+               <children>
+                  <Label text="java web tutorial" />
+                  <Label text="javaFX tutorial" />
+                  <Label text="java IO Tutorial" />
+               </children>
+            </VBox>
+         </content>
+      </TitledPane>
+   </children>
+   <opaqueInsets>
+      <Insets bottom="100.0" left="100.0" right="100.0" top="200.0" />
+   </opaqueInsets>
+</VBox>

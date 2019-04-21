@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kordamp.bootstrapfx.scene.layout.Panel?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample4.StackPanelDemoController">
+
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="savePane" layoutX="316.0" layoutY="134.0" prefHeight="200.0" prefWidth="100.0" visible="false">
+               <children>
+                  <Label text="保存" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconmonstr-save-1-32.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox fx:id="editPane" layoutX="316.0" layoutY="134.0" prefHeight="200.0" prefWidth="100.0" visible="false">
+               <children>
+                  <Label text="编辑" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconmonstr-edit-6-32.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox fx:id="menuPane" layoutX="316.0" layoutY="134.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="菜单" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconmonstr-menu-2-32.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </center>
+
+   <bottom>
+      <FlowPane alignment="CENTER" hgap="20" vgap="10.0" BorderPane.alignment="CENTER">
+
+         <!--<FlowPane hgap="20" vgap="10.0" BorderPane.alignment="CENTER">-->
+               <Button fx:id="editbtn" mnemonicParsing="false" onAction="#editbtn_click" styleClass="btn-primary" text="编辑" />
+               <Button fx:id="svaebtn" mnemonicParsing="false" onAction="#svaebtn_click" styleClass="btn-success" text="保存" />
+               <Button fx:id="menubtn" mnemonicParsing="false" onAction="#menubtn_click" styleClass="btn-warning" text="菜单" />
+
+
+         <padding>
+            <Insets bottom="20" top="20" />
+         </padding>
+
+      </FlowPane>
+   </bottom>
+</BorderPane>

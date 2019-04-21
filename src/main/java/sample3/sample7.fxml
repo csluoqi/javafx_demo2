@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Accordion maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <panes>
+    <TitledPane animated="false" text="java">
+         <content>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="java web tutorial" />
+                  <Label text="javaFX tutorial" />
+                  <Label text="java IO Tutorial" />
+               </children>
+            </VBox>
+         </content></TitledPane>
+    <TitledPane animated="false" text="C#">
+         <content>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="C# tutorial for beginner" />
+                  <Label text="C# IO Tutorial" />
+               </children>
+            </VBox>
+         </content></TitledPane>
+  </panes>
+</Accordion>
