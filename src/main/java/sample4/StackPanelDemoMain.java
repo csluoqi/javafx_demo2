@@ -13,7 +13,6 @@ import javafx.stage.Stage;
 public class StackPanelDemoMain extends Application {
 
     /**
-     *
      *经过美化的版本
      */
     @Override
