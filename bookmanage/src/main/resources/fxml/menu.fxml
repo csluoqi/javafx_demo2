@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="图书管理">
+            <items>
+               <MenuItem  mnemonicParsing="false" text="图书类别" />
+               <MenuItem  mnemonicParsing="false" text="图书信息" />
+               <MenuItem  mnemonicParsing="false" text="图书浏览" />
+               <MenuItem  mnemonicParsing="false" text="统计分析" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="用户管理">
+            <items>
+                <MenuItem  mnemonicParsing="false" text="管理员信息" />
+                <MenuItem  mnemonicParsing="false" text="读者信息" />
+                <MenuItem  mnemonicParsing="false" text="统计分析" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="借阅管理">
+              <items>
+                  <MenuItem  mnemonicParsing="false" text="借阅查询" />
+                  <MenuItem  mnemonicParsing="false" text="统计分析" />
+              </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</Pane>
